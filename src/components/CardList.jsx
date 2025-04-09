@@ -1,16 +1,15 @@
-//Her skal du mappe
+//Noter: Her skal du mappe
+
 import Card from "./Card";
 
-const CardList = () => {
+const CardList = ({ data }) => {
+  console.log(data);
   return (
-    <div className="grid grid-cols-2 mx-2 gap-4">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>
+    <ul className="grid grid-cols-2 mx-2 gap-4">
+      {data.animals.map((animal) => (
+        <Card key={animal.id} animal={animal} />
+      ))}
+    </ul>
   );
 };
 
