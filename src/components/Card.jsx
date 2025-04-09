@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Card = ({ animal }) => {
   return (
-    <li className="bg-white rounded-2xl w-fit shadow-lg my-2">
+    <li className="bg-white rounded-2xl w-fit shadow-lg break-inside-avoid mb-4">
       <div className="relative">
         <Image
           src="https://dbw3zep4prcju.cloudfront.net/animal/053a54be-f52f-4dcf-aa43-3d04b1e17033/image/919c12d7-1728-4e09-82fe-03905a01b494.jpeg?versionId=D0WIrDqcvFuYne0U6e.BtvZrF3iNZkfL&bust=1744013598&width=100"
