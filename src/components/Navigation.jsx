@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <nav className="flex justify-around mx-4 my-6 sticky">
+    <nav className="flex justify-around my-6 sticky bottom-0 bg-white py-3">
       <Link href="/">
         <FiHome className="w-7 h-7 stroke-gray-400" />
       </Link>
@@ -19,7 +19,7 @@ const Navigation = () => {
       <Link href="">
         <IoChatbubbleOutline className="w-7 h-7 stroke-gray-400" />
       </Link>
-      <Link href="/singleview">
+      <Link href="">
         <FiUser className="w-7 h-7 stroke-gray-400" />
       </Link>
     </nav>

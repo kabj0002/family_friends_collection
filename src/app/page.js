@@ -1,6 +1,5 @@
 import Image from "next/image";
 import FilterMenu from "@/components/FilterMenu";
-import Navigation from "@/components/Navigation";
 import CardList from "@/components/CardList";
 
 //Listview
@@ -15,7 +14,6 @@ export default async function Home() {
       <FilterMenu />
       <div className="flex flex-col mx-2 jusitfy-center">
         <CardList data={animals} />
-        <Navigation />
       </div>
     </div>
   );

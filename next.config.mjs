@@ -7,6 +7,11 @@ const nextConfig = {
         hostname: "dbw3zep4prcju.cloudfront.net",
         pathname: "/animal/**",
       },
+      {
+        protocol: "https",
+        hostname: "dl5zpyw5k3jeb.cloudfront.net",
+        pathname: "/photos/pets/**",
+      },
     ],
   },
 };

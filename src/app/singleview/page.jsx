@@ -1,3 +1,4 @@
+//Statisk site
 import KeyWords from "@/components/KeyWords";
 import PrimaryButton from "@/components/PrimaryButton";
 import SingleViewHeader from "@/components/SingleViewHeader";
@@ -12,7 +13,7 @@ const singleView = () => {
       <p className="text-gray-500 py-1">
         Den venligste Samojed, vi nogensinde har mødt. Elsker at lege med bolde
         og er venlig over for andre dyr. På trods af sin hvide pels elsker den
-        regn og vandpytter. 
+        regn og vandpytter.
       </p>
       <p className="text-gray-400 text-sm py-1">Opdateret den 13. juli.</p>
       <PrimaryButton />
